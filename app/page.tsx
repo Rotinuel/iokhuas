@@ -23,7 +23,7 @@ export default function Home() {
           <div>
             <div className="bg-white rounded-2xl shadow-md p-6">
               <h3 className="text-lg font-semibold">Request a quote</h3>
-              <p className="text-sm text-gray-500 mt-1">Quick — we'll get back within one business day.</p>
+              <p className="text-sm text-gray-500 mt-1">Quick — we&apos;ll get back within one business day.</p>
               <div id="contact" className="mt-4">
                 <ContactForm />
               </div>
