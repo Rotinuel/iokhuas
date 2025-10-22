@@ -104,21 +104,42 @@ export default function Home() {
           <h2 className="text-2xl font-bold">Selected Projects</h2>
           <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="rounded-2xl overflow-hidden shadow">
-              <div className="h-40 bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center">Project Image</div>
+              <div className="relative h-48">
+                <Image
+                  src="/sync.jpeg"
+                  alt="IOT Engineering team"
+                  fill
+                  className="object-cover"
+                />
+              </div>
               <div className="p-4">
                 <h4 className="font-semibold">Power Plant Synchronization</h4>
                 <p className="text-sm text-gray-500 mt-1">Full multi-generator synchronization and control upgrade.</p>
               </div>
             </div>
             <div className="rounded-2xl overflow-hidden shadow">
-              <div className="h-40 bg-gradient-to-br from-indigo-100 to-indigo-200 flex items-center justify-center">Project Image</div>
+              <div className="relative h-48">
+                <Image
+                  src="/ats.jpeg"
+                  alt="IOT Engineering team"
+                  fill
+                  className="object-cover"
+                />
+              </div>
               <div className="p-4">
                 <h4 className="font-semibold">Industrial ATS Panels</h4>
                 <p className="text-sm text-gray-500 mt-1">Custom ATS and load shedding solutions.</p>
               </div>
             </div>
             <div className="rounded-2xl overflow-hidden shadow">
-              <div className="h-40 bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center">Project Image</div>
+              <div className="relative h-48">
+                <Image
+                  src="/gt.jpeg"
+                  alt="IOT Engineering team"
+                  fill
+                  className="object-cover"
+                />
+              </div>
               <div className="p-4">
                 <h4 className="font-semibold">Gas Turbine Integration</h4>
                 <p className="text-sm text-gray-500 mt-1">Turbine control and plant interface project.</p>
