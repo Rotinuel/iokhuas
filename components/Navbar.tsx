@@ -78,7 +78,7 @@ export default function Navbar() {
 
         {/* Mobile menu toggle */}
         <button
-          className="md:hidden text-white"
+          className="md:hidden text-black"
           onClick={() => setOpen((p) => !p)}
         >
           {open ? <X /> : <Menu />}
