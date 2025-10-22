@@ -125,7 +125,7 @@ export default function ContactForm() {
       {error && <div className="text-sm text-red-600">{error}</div>}
 
       <div className="flex items-center justify-between gap-4">
-        <button type="submit" className="bg-accent px-5 py-2 rounded-2xl shadow disabled:opacity-60" disabled={loading}>
+        <button type="submit" className="bg-gradient-to-r from-[#19c9fa] to-[#70e84f] px-5 py-2 rounded-2xl shadow disabled:opacity-60" disabled={loading}>
           {loading ? "Sending..." : "Send Request"}
         </button>
         <div className="text-xs text-gray-500">We reply within one business day.</div>
