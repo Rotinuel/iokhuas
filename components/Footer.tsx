@@ -26,8 +26,8 @@ export default function Footer() {
           <p className="mt-2 text-sm">
             Flat 4 Unity Estate, Olambe<br />
             Ogun State, Nigeria<br />
-            <span className="block mt-1">📞 +234 803 351 11012</span>
-            <span className="block">✉️ info@iotengineering.com</span>
+            <span className="block mt-1">📞 +234 803 351 1012</span>
+            <span className="block">✉️ info@isaacokhuatech.com</span>
           </p>
         </div>
       </div>
